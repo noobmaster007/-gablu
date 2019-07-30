@@ -1,0 +1,12 @@
+section{
+          width:100%;
+          height:100vh;
+          background-color: #c2eaba;
+          background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+          background-size: 400%, 400%;
+          position: relative;
+          animation: change 10s ease-in-out infinite;
+        }
+    	p.c {
+  font-style: oblique;
+}

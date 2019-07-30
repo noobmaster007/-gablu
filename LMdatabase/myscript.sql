@@ -1,0 +1,16 @@
+CREATE DATABASE library;
+
+use library;
+
+CREATE TABLE addstd(
+	id INT(11) PRIMARY KEY AUTO_INCREMENT,
+	roll_number VARCHAR(255),
+	name VARCHAR(255) NOT NULL,
+	dept VARCHAR(10) NOT NULL,
+	yr INT(11) NOT NULL,
+	book_name VARCHAR(255) NOT NULL,
+	book_author VARCHAR(255) NOT NULL,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DESCRIBE addstd;
